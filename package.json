@@ -1,0 +1,23 @@
+{
+  "name": "x-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "keywords": [
+    "social social-network friendship"
+  ],
+  "author": "Animesh",
+  "license": "ISC",
+  "description": "clone of social networking site 'x' created by Animesh",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  },
+  "dependencies": {
+    "vite": "^5.3.5"
+  }
+}
